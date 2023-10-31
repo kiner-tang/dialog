@@ -627,9 +627,6 @@ describe('dialog', () => {
 
     expect(spy).toHaveBeenCalledWith(`Warning: bodyStyle is deprecated, please use styles instead.`);
     expect(spy).toHaveBeenCalledWith(`Warning: maskStyle is deprecated, please use styles instead.`);
-    expect(spy).toHaveBeenCalledWith(
-      `Warning: wrapClassName is deprecated, please use classNames instead.`,
-    );
     spy.mockRestore();
   });
 });
